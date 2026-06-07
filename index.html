@@ -242,8 +242,8 @@
     }
 
     .initials {
-      width: 138px;
-      height: 138px;
+      width: 220px;
+      height: 220px;
       border-radius: 50%;
       display: grid;
       place-items: center;
@@ -252,6 +252,17 @@
       color: #0f172a;
       background: linear-gradient(135deg, var(--gold-light), #bfdbfe);
       box-shadow: 0 24px 70px rgba(96, 165, 250, 0.22);
+    }
+
+    .profile-photo {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      display: block;
+      object-fit: cover;
+      border: 1px solid var(--border);
+      box-shadow: 0 24px 70px rgba(0,0,0,0.35);
+      background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(0,0,0,0.06));
     }
 
     .card-title {
@@ -619,7 +630,7 @@
 
         <aside class="executive-card">
           <div class="profile-orb">
-            <div class="initials">AR</div>
+            <img src="1775619457463.jpg" alt="Asmita Rajendra" class="profile-photo">
           </div>
 
           <h2 class="card-title">Analytics-Driven Professional</h2>
